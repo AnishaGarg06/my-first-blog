@@ -8,15 +8,13 @@
             <h1><a href="/">FROM ANISHA'S HEART</a></h1>
         </header>
 
-        <article>
-            <h2><a href=""><em>I LOVE YOU MUMMY</em></a></h2>
-            <p><strong>YOU ARE PURE LOVE MUMMY</strong></p>
-        </article>
-
-        <article>
-            <h2><a href="">SORRY MOMMY</a></h2>
-            <p>
-            <strong><em>SORRY MAI THODA CHIDH JATI HU NA BOLTI RHTI HU BINA KUCH DEKHE</em></strong></p>
-        </article>
+       {%for post in posts %}
+       <article>
+           <h2><a href="">{{ post.title }}</a>
+           </h2>
+           <p>{{ post.text|linebreaksbr }}</p>
+           <time>published : {{ post.published_date }}</time>
+       </article>
+       {% endfor %}
     </body>
 </html>
