@@ -1,0 +1,52 @@
+h1 a, h2 a {
+	color: #000000;
+	font-family: 'lobster';
+	background-color: #FF7043;
+	border-style:solid;
+	
+}
+
+
+.post h2 a
+{
+	color: #212121;
+	background-color:#69F0AE;
+	
+}
+
+.post-header {
+	margin-left: 100px ;
+	padding: 5px;
+}
+
+.post-header h1 a{
+	padding: 15px;
+}
+
+.post p
+{
+	background-color: #F06292;
+	border-style: groove;
+	padding: 20px 2px 20px 40px;
+	font-family: 'lobster';
+}
+
+
+.post {
+	border-style: groove;
+	margin: 20px;
+	padding: 20px;
+}
+
+.post time
+{
+	color: #000000;
+	background-color: #4FC3F7;
+	padding: 15px;
+	font-family: 'lobster two';
+	border-style: solid;
+}
+body 
+{
+	padding-left: 15px;
+}
