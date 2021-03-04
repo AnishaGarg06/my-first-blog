@@ -10,7 +10,7 @@ h1 a, h2 a {
 .post h2 a
 {
 	color: #212121;
-	background-color:#69F0AE;
+	background-color:#FFAB91;
 	
 }
 
@@ -25,7 +25,7 @@ h1 a, h2 a {
 
 .post p
 {
-	background-color: #F06292;
+	background-color: #E0E0E0;
 	border-style: groove;
 	padding: 20px 2px 20px 40px;
 	font-family: 'lobster';
@@ -41,7 +41,7 @@ h1 a, h2 a {
 .post time
 {
 	color: #000000;
-	background-color: #4FC3F7;
+	background-color: #BDBDBD;
 	padding: 15px;
 	font-family: 'lobster two';
 	border-style: solid;
@@ -49,4 +49,5 @@ h1 a, h2 a {
 body 
 {
 	padding-left: 15px;
+	background-color:#000000;
 }
