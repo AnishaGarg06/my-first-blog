@@ -7,6 +7,7 @@
 				<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}">
 					{% include './icons/pencil-fill.svg' %}
 				</a>
+                <a class="btn btn-default" href="{% url 'post_remove' pk=post.pk %}">delete<span class="glyphicon glyphicon-remove"></span></a>
 			{% endif %}
 		</aside>
     	{% if post.published_date %}
@@ -14,8 +15,10 @@
         </h2>
         <p>{{ post.text|linebreaksbr }}</p>
         <time>published : {{ post.published_date }}</time>
+        {% else %}
+            <a class="btn btn-default" href="{% url 'post_publish' pk=post.pk %}">Publish</a>
         {% endif %}
-        
+
     </article>
 {% endblock %}
     
